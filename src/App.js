@@ -90,7 +90,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>Image Upload Gallery</h1>
+        <h1>Pixella</h1>
       </header>
 
       <div className="upload-section">
