@@ -9,7 +9,7 @@ function App() {
   const [error, setError] = useState('');
   const [preview, setPreview] = useState('');
 
-  const API_BASE_URL = 'http://localhost:3001';
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://cicdbackend-production-506a.up.railway.app';
 
   useEffect(() => {
     fetchImages();
